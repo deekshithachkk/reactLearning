@@ -96,3 +96,7 @@
   background: transparent;
   z-index:1
 }
+input{
+
+  padding: 2rem;
+}

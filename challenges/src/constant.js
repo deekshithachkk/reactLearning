@@ -3,4 +3,11 @@ const slides=[
    '02.jpg',
    '03.jpg',
 ]
-export {slides}
+const jsonData=[
+   "deekshitha",
+   "Neekshitha",
+   "adisha",
+   "divya",
+   "lakshmi",
+]
+export {slides,jsonData}
