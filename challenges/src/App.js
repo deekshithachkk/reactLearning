@@ -4,7 +4,7 @@ import Header from './components/responsiveNav/Header';
 import Slide from './components/Carousel/Slide';
 import TransitionHook from './components/Transition/TransitionHook';
 import UseDeffered from 'components/UseDeffered';
-import Greeting from 'components/Greeting/Greeting';
+import Counter from './components/Counter/Counter';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Header />
       {/* <Slide /> */}
       {/* <TransitionHook /> */}
-     <Greeting name="Jhon!" />
+      <Counter />
     </div>
   );
 }
