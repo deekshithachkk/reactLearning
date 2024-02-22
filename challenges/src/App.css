@@ -34,8 +34,8 @@
 
 .link:hover {
   color: blue;
-  animation: moveAnchor 2s linear infinite;
-  text-decoration: overline;
+  /* animation: moveAnchor 2s linear infinite;
+  text-decoration: overline; */
   /* width: calc(100% - 20px); */
 }
 
@@ -44,7 +44,7 @@
 }
 
 @keyframes moveAnchor {
-  0% {
+  /* 0% {
     left: 0;
   }
 
@@ -54,7 +54,7 @@
 
   100% {
     left: 0;
-  }
+  } */
 }
 
 .slide {

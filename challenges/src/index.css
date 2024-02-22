@@ -2,3 +2,39 @@ body {
   margin: 0;
   padding: 0;
 }
+/* .outer-card-container{
+  width:80%;
+  background-color: #f0f5f7;
+  height: 35rem;
+  margin: 5rem auto;
+  overflow: auto;
+}
+.outer-card-description{
+  padding: 0 2rem;
+  word-break: break-word;
+  
+}
+.image{
+  width:100%;
+}
+.image-container{
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  margin-top: 1rem;
+}
+.content-container{
+  position: relative;
+  top:65%;
+}
+@media only screen and (max-width:900px) {
+  .image-container{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+  }
+  .content-container{
+    position: relative;
+    top:48%;
+  }
+} */

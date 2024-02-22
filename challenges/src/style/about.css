@@ -1,0 +1,34 @@
+.row-one-container {
+  background-color: #7ba1aa;
+}
+
+.outer-card-container {
+  width: 80%;
+  background-color: #f0f5f7;
+  height: 35rem;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+  top: 10rem;
+}
+
+.image {
+  width: 100%;
+}
+
+.image-container {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  z-index: 1;
+}
+@media screen and (min-width: 900px) {
+  .image-container {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    z-index: 1;
+  }
+}
