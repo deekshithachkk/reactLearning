@@ -7,7 +7,7 @@ function CakeComp(props) {
   const dispatch=useDispatch()
   const cakes = useSelector((state) => state);
   // @ts-ignore
-  console.log(cakes.numofCakes  )
+
     return (
         <div>
           <p>numberof cakes{props.numofCakes}</p> 
@@ -18,7 +18,7 @@ function CakeComp(props) {
 }
 const mapStateToProps=state=>{
   return{
-    numofCakes:state.numofCakes
+    numofCakes:state.cake.numofCakes
   }
 }
 
